@@ -1,0 +1,8 @@
+/* Soluzione qui */
+
+/*Modalità Tablet (sopra i 768px)*/
+
+@media only screen and (min-width: 769px) {
+    #topbar {
+        display: block;}
+    }
