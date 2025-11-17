@@ -76,12 +76,10 @@ aggiustare logo allineato scritta bottone*/
 
     .btn {
         padding: 10px 35px;
-        display: flex;
-        align-items: center;
     }
 
     .social-networks .label {
-        display: block;
+        display: inline;
     }
 
     footer {
@@ -90,7 +88,21 @@ aggiustare logo allineato scritta bottone*/
         align-items: center;
     }
 
-    footer address  {
+    footer address {
         text-align: left;
+    }
+}
+
+/*Bonus, Modalità Large Mobile (576px)*/
+
+@media only screen and (min-width: 576px) {
+
+    .clearfix img {
+        margin-right: 10px;
+        float: left;
+    }
+
+    .btn {
+        padding: 10px 35px;
     }
 }
