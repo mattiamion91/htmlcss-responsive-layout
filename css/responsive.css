@@ -74,6 +74,12 @@ aggiustare logo allineato scritta bottone*/
         flex-basis: 30%;
     }
 
+    .btn {
+        padding: 10px 35px;
+        display: flex;
+        align-items: center;
+    }
+
     .social-networks .label {
         display: block;
     }
