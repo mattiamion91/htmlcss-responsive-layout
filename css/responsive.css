@@ -36,15 +36,6 @@
     .ads {
         display: block;
     }
-
-    .clearfix img {
-        margin-right: 10px;
-        float: left;
-    }
-
-    .fas {
-        display: inline;
-    }
 }
 
 /*Modalità Desktop(sopra i 992px)
@@ -104,5 +95,9 @@ aggiustare logo allineato scritta bottone*/
 
     .btn {
         padding: 10px 35px;
+    }
+
+    .fas {
+        display: inline;
     }
 }
