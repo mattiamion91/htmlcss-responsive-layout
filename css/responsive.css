@@ -46,3 +46,45 @@
         display: inline;
     }
 }
+
+/*Modalità Desktop(sopra i 992px)
+aggiustare la dimensione del video
+aggiustare logo allineato scritta bottone*/
+
+
+@media only screen and (min-width: 992px) {
+
+    .recipe-name {
+        font-size: 2.5rem;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-basis: 70%;
+    }
+
+    .recipe-info {
+        flex-basis: 30%;
+    }
+
+    .social-networks .label {
+        display: block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer address  {
+        text-align: left;
+    }
+}
