@@ -2,7 +2,47 @@
 
 /*Modalità Tablet (sopra i 768px)*/
 
-@media only screen and (min-width: 769px) {
-    #topbar {
-        display: block;}
+@media only screen and (min-width: 768px) {
+
+    main {
+        padding: 40px;
     }
+
+    #topbar {
+        display: block;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes ul li {
+        flex-basis: calc(100% / 3);
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img {
+        margin-right: 10px;
+        float: left;
+    }
+
+    .fas {
+        display: inline;
+    }
+}
